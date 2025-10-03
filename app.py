@@ -81,7 +81,11 @@ def get_theme_styles():
         background: linear-gradient(45deg, transparent, {PRIMARY_COLOR}08, {ACCENT_COLOR}08, transparent);
         animation: shimmer 8s infinite linear;
     }}
-    
+    .e10vaf9m1.st-emotion-cache-1pbsqtx.ex0cdmw0 {{
+      fill: #e6f0ff !important;   /* light pastel blue */
+      color: #e6f0ff !important;
+    }}
+
     @keyframes shimmer {{
         0% {{ transform: translateX(-100%) translateY(-100%) rotate(45deg); }}
         100% {{ transform: translateX(100%) translateY(100%) rotate(45deg); }}
@@ -756,3 +760,4 @@ st.markdown(f"""
 </style>
 
 """, unsafe_allow_html=True)
+
