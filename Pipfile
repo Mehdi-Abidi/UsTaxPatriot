@@ -15,7 +15,12 @@ langchain-huggingface = "*"
 sentence-transformers = "*"
 pypdf = "*"
 langchain-pinecone = "*"
-dotenv = "*"
+python-dotenv = "*"
+
+# Force CPU-only PyTorch
+torch = {version = "==2.2.2+cpu", index = "pypi", extras = ["cpu"]}
+torchvision = {version = "==0.17.2+cpu", index = "pypi"}
+torchaudio = {version = "==2.2.2+cpu", index = "pypi"}
 
 [dev-packages]
 
