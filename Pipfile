@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+flask = "*"
+faiss-cpu = "*"
+speechrecognition = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-openai = "*"
+langchain-huggingface = "*"
+sentence-transformers = "*"
+pypdf = "*"
+langchain-pinecone = "*"
+dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
