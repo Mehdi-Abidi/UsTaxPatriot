@@ -578,7 +578,7 @@ def display_chat_message(role, content):
         
         st.markdown(f"""
         <div class="assistant-message">
-            <strong>🏛️ USTax AI (GPT-4):</strong><br>
+            <strong>🏛️ USTax AI:</strong><br>
             {formatted_answer}
         </div>
         """, unsafe_allow_html=True)
@@ -677,7 +677,7 @@ if __name__ == "__main__":
     if not st.session_state.messages:
         st.markdown(f"""
         <div class="assistant-message">
-            <strong>🏛️ USTax AI (GPT-4):</strong><br>
+            <strong>🏛️ USTax AI:</strong><br>
             Welcome to USTax! I'm your AI tax assistant specializing in United States tax regulations. 
             I can help you with IRS compliance, tax planning strategies, deductions, credits, and general tax questions. 
             How can I assist you with your US tax matters today?
@@ -754,4 +754,5 @@ st.markdown(f"""
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) !important;
 }}
 </style>
+
 """, unsafe_allow_html=True)
